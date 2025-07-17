@@ -1,0 +1,5 @@
+# Created at 2025-07-17T21:55:37.231
+Boot Manifest-JAR contains absolute paths in classpath 'D:\BrodeLeaf Project\sampleproject\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
