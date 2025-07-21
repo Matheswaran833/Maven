@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  hellomain:
+    build: .   
+    container_name: hellomain-container
+    working_dir: /app
+    volumes:
+      - ./target:/app/target
+      - ./lib:/app/lib
+    command: >
+      java -cp target/HelloMainProject-0.0.1-SNAPSHOT.jar:lib/HelloProject-0.0.1-SNAPSHOT.jar HelloMain.hellomain
